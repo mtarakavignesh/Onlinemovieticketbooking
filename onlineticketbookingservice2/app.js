@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var monk = require('monk');
-var db = //use yout mongo db uri//
+var db = //use your mongo db uri//
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
