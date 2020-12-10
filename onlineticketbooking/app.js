@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var monk = require('monk');
-var db = monk('mongodb+srv://vignesh_727:Vignesh@123@cluster0.efewt.mongodb.net/<onlineticketbooking>?retryWrites=true&w=majority');
+var db =//use your mongodb uri//
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
